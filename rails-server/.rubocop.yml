@@ -1,0 +1,17 @@
+# Omakase Ruby styling for Rails
+inherit_gem: { rubocop-rails-omakase: rubocop.yml }
+# .rubocop.yml
+Layout/IndentationConsistency:
+  Enabled: true
+
+Layout/IndentationWidth:
+  Width: 4 # Change default indentation to 4 spaces
+
+# Layout/SpaceAroundOperators:
+#   Enabled: true # Ensure spacing around operators
+
+# Layout/EmptyLinesAroundClassBody:
+#   Enabled: true
+
+# Layout/SpaceInsideBlockBraces:
+#   EnforcedStyle: space # Enforce spaces inside `{}` braces
